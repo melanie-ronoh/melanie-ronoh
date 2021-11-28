@@ -6,44 +6,52 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Melanie Ronoh</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Crimson+Text&family=Itim&family=Nanum+Pen+Script&family=Roboto+Slab&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Karla&family=Lato:wght@700&family=Merriweather:ital,wght@1,300&family=Nanum+Pen+Script&family=Ubuntu&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Itim&family=Nanum+Pen+Script&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" type="text/css" href="style.css">
- <link rel="stylesheet" type="Javascript" href="script.js">
+  <link rel="stylesheet" type="Javascript" href="thankyou.html">
 
 </head>
 <body>
-
-<header class="header">
-  <a href="" class="logo">Melanie Ronoh</a>
-  <input class="menu-btn" type="checkbox" id="menu-btn" />
-  <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-  <ul class="menu">
-    <li><span><a href="#myWork">Projects</a></span></li>
-    <li><a href="#aboutme">About Me</a></li>
-    <li><a href="#contact">Contact</a></li>
+<!-- menu -->
+  <header>
+    <div class="logo"><h1>Melanie Ronoh</h1></div>
+    <div class="openMenu"><i class="fa">&#xf0c9;</i></div>
+    <ul class="mainMenu">
+      <li><a href="#myWork">Projects</a></li>
+      <li><a href="#aboutme">About Me</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <div class="closeMenu"><i class="fa">&#xf00d;</i></div>
   </ul>
-</header>
+  </header>
 
-<div class="container">
+<!-- intro header -->
+
 <nav>
   <div class="head">
     <h1>
       <span
        class="txt-rotate"
        data-period="500"
-       data-rotate='[ "Hello, I&#700m Melanie"]'></span></h1><br>
-       <p>A school taught 
-          <span> Mechanical Engineer</span>
-        turned Front End Developer.</p>
-  </div>
+       data-rotate='[ "Hello, I&#700m Melanie..."]'></span></h1><br>
+       <p>A school taught Mechanical Engineer turned Front End Engineer - what? I know, I know, it’s pretty crazy. But hey, sometimes life has fun surprises. </p>
+        
+          <div class="social-links">
+              <ul>
+                  <li class="linkedin">
+                    <a href="https://www.linkedin.com/in/melanie-ronoh/" target="_blank"><button class="border"><i class="fa">&#xf0e1;</i></button></a>
+                  </li>
+                  <li class="github">
+                    <a href="https://github.com/melanie-ronoh" target="_blank"><button class="border"><i class="fa">&#xf09b;</i></button></a>
+                  </li>
+              </ul>
+          </div>
+      </div>
 </nav>
-
 
 <!-- Projects -->
 
@@ -57,8 +65,8 @@
           <h3>Candy Crush</h3>
           <p>Recreated the fun game of candy crush using Javascript, HTML and CSS</p>
           <div class="overlay">
-            <a href="https://melanie-ronoh.github.io/Candy-Crush/" target="_blank"><button class="read-more">Live</button></a>
-            <a href="https://github.com/melanie-ronoh/Candy-Crush.git" target="_blank"><button class="read-more">Github</button></a>
+            <a href="https://melanie-ronoh.github.io/Candy-Crush/" target="_blank" class="read-more">Live</a>
+            <a href="https://github.com/melanie-ronoh/Candy-Crush.git" target="_blank" class="read-more">Repo</a>
           </div>
         </div>
       </div>
@@ -69,8 +77,8 @@
           <h3>Bookmark App</h3>
           <p>An app that allows you to bookmark websites for late refernece. A project provided by Zero to Mastery Academy.</p>
           <div class="overlay">
-            <a href="https://melanie-ronoh.github.io/bookmark-app/"><button class="read-more">Live</button></a>
-            <a href="https://github.com/melanie-ronoh/bookmark-app.git"><button class="read-more">Github</button></a>
+            <a href="https://melanie-ronoh.github.io/bookmark-app/" target="blank" class="read-more">Live</a>
+            <a href="https://github.com/melanie-ronoh/bookmark-app.git" target="blank" class="read-more">Repo</a>
           </div>
         </div>
       </div>
@@ -84,8 +92,8 @@
           <h3>Quote Gnerator</h3>
           <p> This is a random quote generator that uses an API and built using Vanilla Javascript. Contains twitter integration for a retweet. </p>
           <div class="overlay">
-            <a href="https://melanie-ronoh.github.io/quote-generator/" target="_blank"><button class="read-more" >Live</button></a>
-            <a href="https://github.com/melanie-ronoh/quote-generator.git" target="_blank"><button class="read-more">Github</button></a>
+            <a href="https://melanie-ronoh.github.io/quote-generator/" target="_blank" class="read-more">Live</a>
+            <a href="https://github.com/melanie-ronoh/quote-generator.git" target="_blank" class="read-more">Repo</a>
           </div>
         </div>
       </div>
@@ -96,8 +104,8 @@
           <h3>Kanban Board</h3>
           <p>Online based Kanban Board utilizing drag and drop API. Ability to edit, delete and save items within the columns. </p>
           <div class="overlay">
-            <a href="https://melanie-ronoh.github.io/kanban-board/" target="_blank"><button class="read-more">Live</button></a>
-            <a href="https://github.com/melanie-ronoh/kanban-board.git" target="_blank"><button class="read-more">Github</button></a>
+            <a href="https://melanie-ronoh.github.io/kanban-board/" target="_blank" class="read-more">Live</a>
+            <a href="https://github.com/melanie-ronoh/kanban-board.git" target="_blank" class="read-more">Repo</a>
           </div>
         </div>
       </div>
@@ -105,8 +113,6 @@
     </div>
   </div>
 </section>
-
-
 
 <!-- About Me -->
 
@@ -141,7 +147,6 @@
   </div>
 </section>  
 
-
 <!-- Contact Me -->
 
  <section class="contact" id="contact">
@@ -149,6 +154,19 @@
     <div class="contactInfo">
       <h2>Contact Me </h2>
       <p>Got any questions or want to discuss a job? Shoot me an email and let's connect. </p>
+      <div class="social-links">
+        <ul>
+            <li class="linkedin">
+              <a href="https://www.linkedin.com/in/melanie-ronoh/" target="_blank"><button class="border"><i class="fa">&#xf0e1;</i></button></a>
+            </li>
+            <li class="github">
+              <a href="https://github.com/melanie-ronoh" target="_blank"><button class="border"><i class="fa">&#xf09b;</i></button></a>
+            </li>
+            <li class="mail">
+              <a href="mailto:melanie.ronoh@gmail.com" target="_blank"><button class="border"><i class="fa">&#xf0e0;</i></button></a>
+            </li>
+        </ul>
+      </div>
     </div>
     <div class="form">
       <form name="contact" action="https://formsubmit.co/melanie.ronoh@gmail.com" method="POST">
@@ -176,70 +194,7 @@
   <p>&copy;2021 Melanie Ronoh</p>
 </footer>
 
-
-
-
-<script> var TxtRotate = function(el, toRotate, period) {
-  this.toRotate = toRotate;
-  this.el = el;
-  this.loopNum = 0;
-  this.period = parseInt(period, 10) || 2000;
-  this.txt = '';
-  this.tick();
-  this.isDeleting = false;
-};
-
-TxtRotate.prototype.tick = function() {
-  var i = this.loopNum % this.toRotate.length;
-  var fullTxt = this.toRotate[i];
-
-  if (this.isDeleting) {
-    this.txt = fullTxt.substring(0, this.txt.length - 1);
-  } else {
-    this.txt = fullTxt.substring(0, this.txt.length + 1);
-  }
-
-  this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
-
-  var that = this;
-  var delta = 200 - Math.random() * 100;
-
-  if (this.isDeleting) { delta /= 2; }
-
-  if (!this.isDeleting && this.txt === fullTxt) {
-    delta = this.period;
-    this.isDeleting = true;
-  } else if (this.isDeleting && this.txt === '') {
-    this.isDeleting = false;
-    this.loopNum++;
-    delta = 500;
-  }
-
-  setTimeout(function() {
-    that.tick();
-  }, delta);
-};
-
-window.onload = function() {
-  var elements = document.getElementsByClassName('txt-rotate');
-  for (var i=0; i<elements.length; i++) {
-    var toRotate = elements[i].getAttribute('data-rotate');
-    var period = elements[i].getAttribute('data-period');
-    if (toRotate) {
-      new TxtRotate(elements[i], JSON.parse(toRotate), period);
-    }
-  }
-  // INJECT CSS
-  var css = document.createElement("style");
-  css.type = "text/css";
-  css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
-  document.body.appendChild(css);
-};</script>
-
-
-
-
-
+<script src="./script.js"></script>
 
 </body>
 </html>
