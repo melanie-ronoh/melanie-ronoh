@@ -451,6 +451,18 @@ nav p {
   margin: 0 auto;
 }
 
+@media (max-width: 1080px) {
+  .aboutme h2 {
+    margin-top: 200px;
+  }
+}
+
+@media (max-width: 800px) {
+  .aboutme h2 {
+    margin-top: 500px;
+  }
+}
+
 @media (min-width: 1080px) {
   .aboutme .about .aboutimg {
     width: 80%;
@@ -507,19 +519,13 @@ nav p {
 
 @media (max-width: 1080px) {
   .contact {
-    margin-top: 20%;
+    margin-top: 300px;
   }
 }
 
 @media (max-width: 780px) {
   .contact {
-    margin-top: 50%;
-  }
-}
-
-@media (max-width: 600px) {
-  .contact {
-    margin-top: 70%;
+    margin-top: 400px;
   }
 }
 
