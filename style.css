@@ -11,9 +11,9 @@ html {
 body {
   height: 100%;
   overflow: auto;
-  background-image: url("Images/CharmedHaven.svg");
-  background-size: cover;
+  background-color: rgb(73, 101, 179);
   opacity: 0.9;
+  color: rgb(255, 254, 185);
 }
 
 li {
@@ -28,11 +28,11 @@ a {
 /* header */
 
 header {
-  color: #9699bf;
+  color: rgb(255, 254, 185);
   display: flex;
   justify-content: space-between;
   font-family: "Itim", cursive;
-  padding: 30px;
+  padding: 28px;
 }
 
 header .mainMenu {
@@ -44,6 +44,7 @@ header .mainMenu li a {
   padding: 20px;
   text-decoration: none;
   font-size: 1.6rem;
+  color: rgb(255, 254, 185);
 }
 header .mainMenu li a:hover {
   text-decoration: line-through;
@@ -71,7 +72,8 @@ header .mainMenu .closeMenu {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #cfc9e8;
+    background: rgb(79, 100, 174);
+
     transition: top 1s ease;
     display: none;
   }
@@ -89,13 +91,6 @@ header .mainMenu .closeMenu {
     text-decoration: line-through;
     font-size: 1.6rem;
   }
-}
-
-.kit ul {
-  margin: 0 auto;
-  padding: 10px;
-  list-style: none;
-  overflow: hidden;
 }
 
 /*******HEADER*******/
@@ -154,7 +149,7 @@ nav p {
 
 .fa {
   font-size: 30px;
-  color: #9094cd;
+  color: rgb(255, 254, 185);
 }
 
 .social-links li {
@@ -229,6 +224,7 @@ nav p {
   margin-top: 20px;
   transition: 0.4s;
   transition-property: transform;
+  color: rgb(79, 100, 174);
 }
 
 .projectImage .description p {
@@ -299,20 +295,20 @@ nav p {
 
 .overlay a {
   font-size: 1.6rem;
-  background-color: #61c2a2;
-  border: 2px solid #61c2a2;
+  background-color: rgb(255, 254, 185);
+  border: 2px solid rgb(255, 254, 185);
   padding: 5px 10px;
   margin: 5px 0;
   width: auto;
   border-radius: 5px;
   text-decoration: none;
-  color: white;
+  color: rgb(79, 100, 174);
   font-size: 1.2rem;
 }
 .overlay a:hover {
-  background-color: white;
-  color: #9699bf;
-  border: 2px solid #9699bf;
+  background-color: rgba(79, 100, 174, 0.3);
+  color: rgb(255, 254, 185);
+  border: 2px solid rgb(255, 254, 185);
 }
 
 .overlay .icon-links i {
@@ -424,7 +420,7 @@ nav p {
 
 .aboutme .about .bio span {
   font-size: 1.4rem;
-  color: #266daf;
+  color: rgb(213, 242, 253);
   font-family: "Nanum Pen Script", cursive;
 }
 
@@ -475,20 +471,24 @@ nav p {
 }
 
 /* Kit */
-
-.kit {
+.kit ul {
+  margin: 0 auto;
+  padding: 10px;
+  list-style: none;
+  overflow: hidden;
   font-family: "Itim", cursive;
 }
 
 .kit h3 {
-  margin-left: 20%;
-  font-size: 1.6rem;
+  margin-left: 40%;
+  font-size: 1.8rem;
 }
 
 .kit li {
   display: inline;
   padding-left: 20px;
   font-size: 1.3rem;
+  line-height: 10px;
 }
 
 @media (min-width: 900px) {
@@ -620,21 +620,21 @@ nav p {
 }
 
 .contact .contactContainer .form button {
-  background-color: #61c2a2;
-  border: 2px solid #61c2a2;
+  background-color: rgb(255, 254, 185);
+  border: 2px solid rgb(255, 254, 185);
   padding: 10px 15px;
   margin: 10px 0;
   width: auto;
   border-radius: 5px;
   text-decoration: none;
-  color: white;
+  color: rgb(79, 100, 174);
   text-transform: uppercase;
 }
 
 .contact .contactContainer .form button:hover {
-  background-color: white;
-  color: #9699bf;
-  border: 2px solid #9699bf;
+  background-color: rgb(79, 100, 174);
+  color: rgb(255, 254, 185);
+  border: 2px solid rgb(255, 254, 185);
 }
 
 button,
@@ -722,18 +722,18 @@ footer p {
 
 .thankyou a {
   font-size: 1.6rem;
-  background-color: #61c2a2;
-  border: 2px solid #61c2a2;
+  background-color: rgb(255, 254, 185);
+  border: 2px solid rgb(255, 254, 185);
   padding: 5px 10px;
   margin: 10px 0;
   width: auto;
   border-radius: 5px;
   text-decoration: none;
-  color: white;
+  color: rgb(79, 100, 174);
   font-size: 1.2rem;
 }
 .thankyou a:hover {
-  background-color: white;
-  color: #9699bf;
-  border: 2px solid #9699bf;
+  background-color: rgb(79, 100, 174);
+  color: rgb(255, 254, 185);
+  border: 2px solid rgb(255, 254, 185);
 }
